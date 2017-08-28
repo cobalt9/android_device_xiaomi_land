@@ -108,7 +108,8 @@ etc/acdbdata/QRD/QRD_Speaker_cal.acdb
 
 # Bluetooth
 bin/btnvtool
-bin/hci_qcomm_init
+bin/hci_qcomm_init|3f4b99cb6ee44e688916eee413d3c15f78d03a87
+bin/wcnss_filter|dc151b5fbf9bca3d807ec4ba0e256b0e5140fe39
 vendor/lib/libbtnv.so
 vendor/lib64/libbtnv.so
 vendor/lib64/libbt-vendor.so
