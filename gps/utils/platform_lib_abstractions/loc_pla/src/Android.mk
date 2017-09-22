@@ -26,9 +26,6 @@ LOCAL_CFLAGS += \
      -D_ANDROID_ \
      -std=c++11
 
-
-LOCAL_LDFLAGS += -Wl,--export-dynamic
-
 ## Includes
 LOCAL_C_INCLUDES:= \
     $(LOCAL_PATH)/../include \
