@@ -5,6 +5,8 @@ PRODUCT_COPY_FILES += \
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
+    android.hardware.wifi@1.0-service \
+    libcld80211 \
     libqsap_sdk \
     libQWiFiSoftApCfg \
     libwpa_client \
