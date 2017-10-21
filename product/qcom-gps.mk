@@ -14,6 +14,10 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/gps/etc/sap.conf:system/etc/sap.conf \
     $(DEVICE_PATH)/gps/etc/xtwifi.conf:system/etc/xtwifi.conf \
 
+# GNSS HAL
+PRODUCT_PACKAGES += \
+    android.hardware.gnss@1.0-impl
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.location.gps.xml:system/etc/permissions/android.hardware.location.gps.xml
