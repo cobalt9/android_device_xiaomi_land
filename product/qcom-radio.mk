@@ -20,3 +20,7 @@ PRODUCT_PACKAGES += \
     libxml2 \
     rild_socket \
     Stk
+
+# Netutils
+PRODUCT_PACKAGES += \
+    netutils-wrapper-1.0
