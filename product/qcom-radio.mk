@@ -14,7 +14,8 @@ PRODUCT_PACKAGES += \
     libcnefeatureconfig \
     librmnetctl \
     libxml2 \
-    rild_socket
+    rild_socket \
+    libshims_ims
 
 # Netutils
 PRODUCT_PACKAGES += \
