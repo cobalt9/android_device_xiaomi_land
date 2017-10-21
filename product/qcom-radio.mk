@@ -1,7 +1,3 @@
-# HIDL
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/manifest.xml:system/vendor/manifest.xml
-
 # IRSC
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/sec_config:system/etc/sec_config
