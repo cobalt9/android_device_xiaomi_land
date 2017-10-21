@@ -16,4 +16,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libcnefeatureconfig \
     librmnetctl \
-    libxml2
+    libxml2 \
+    rild_socket
