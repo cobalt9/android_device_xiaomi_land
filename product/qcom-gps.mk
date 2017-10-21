@@ -5,7 +5,8 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     gps.msm8937 \
     libcurl \
-    libshims_get_process_name
+    libshims_get_process_name \
+    libshims_sensor
 
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/gps/etc/flp.conf:system/etc/flp.conf \
