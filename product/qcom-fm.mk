@@ -1,4 +1,5 @@
 # FM
 PRODUCT_PACKAGES += \
     FMRadio \
-    libfmjni
+    libfmjni \
+    android.hardware.broadcastradio@1.0-impl
