@@ -1,3 +1,2 @@
-# Fs_config
-PRODUCT_PACKAGES += \
-    fs_config_files
+# Filesystem
+TARGET_FS_CONFIG_GEN := $(LOCAL_PATH)/config.fs
