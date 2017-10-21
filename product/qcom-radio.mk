@@ -14,7 +14,9 @@ PRODUCT_COPY_FILES += \
 
 # RIL
 PRODUCT_PACKAGES += \
+    android.hardware.radio@1.0-impl \
     libcnefeatureconfig \
     librmnetctl \
     libxml2 \
-    rild_socket
+    rild_socket \
+    Stk
