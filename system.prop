@@ -174,9 +174,6 @@ persist.sys.dun.override=0
 telephony.lteOnCdmaDevice=1
 service.qti.ims.enabled=1
 
-# SdcardFs
-ro.sys.sdcardfs=true
-
 # Time Services
 persist.timed.enable=true
 
