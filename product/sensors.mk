@@ -4,7 +4,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
-    $(DEVICE_PATH)/configs/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf
+    $(DEVICE_PATH)/configs/sensors/sensor_def_qcomdev.conf:system/evendor/tc/sensors/sensor_def_qcomdev.conf
 
 # Permissions
 PRODUCT_COPY_FILES += \
