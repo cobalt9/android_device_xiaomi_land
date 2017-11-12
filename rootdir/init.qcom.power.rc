@@ -164,6 +164,13 @@ on enable-low-power
     rm /data/system/perfd/default_values
     start perfd
 
+service ppd /vendor/bin/mm-pp-dpps
+    class late_start
+    user system
+    group system graphics
+    socket pps stream 0660 system system
+    disabled
+
 on class_start:late_start
     trigger enable-low-power
 
@@ -185,3 +192,4 @@ on property:init.svc.recovery=running
 
 on property:dev.bootcomplete=1
     setprop sys.io.scheduler bfq
+
