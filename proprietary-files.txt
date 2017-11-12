@@ -119,7 +119,7 @@ vendor/lib64/libbt-vendor.so
 -framework/com.quicinc.cne.jar|773982968679874bc77847b641ef894e7ee09957
 -framework/ConnectivityExt.jar|67025d09bbc7bb87bca1d15ab9c133eeb1ef2b9d
 -priv-app/CNEService/CNEService.apk|b4e476057c5060245bc3c8ce593130bc75bd675d
-bin/cnd|ce4d3e707a963d9dafd06849f5beae0c3d23c5a1
+bin/cnd|e13b60a95fd97597881df996166b8ba80e3b4af3  
 etc/cne/andsfCne.xml|f81a69eac5dd16bbb195a0fcf1211a51cc014553
 etc/cne/SwimConfig.xml|68dedcca1c2ac18cf81fdee1854de16a3a60dd02
 etc/cne/wqeclient/ATT/ATT_profile1.xml|c3072f14098d64c2e799423c046d71691b10af7a
@@ -146,8 +146,8 @@ vendor/lib/libcneqmiutils.so|df7703daf0e8dec5dbfe0b682f9722229df0a9de
 vendor/lib/libvendorconn.so|ba2a5176b387ed6103d213fa1c8622896d60e532
 vendor/lib/libwqe.so|81f58d6bd8f9937070d99495c46ab6f8a89ff6e8
 vendor/lib/libxml.so|18b92add6a17761f4ef3e049d25e8159c4712ac2
-vendor/lib64/libcne.so|0b40b854e0dcb9717da22267669219b71b3666c1
-vendor/lib64/libcneapiclient.so|56a8f71038ea854336cfaab6992247cfb22011d5
+vendor/lib64/libcne.so|ccabce5b3c040ae4b5c9638b15a6aa4d50e1c8b1
+vendor/lib64/libcneapiclient.so|ba6a5707cbcac22dd57ee29977c13241ec9db777
 vendor/lib64/libcneqmiutils.so|6a77c414057adb75e333e807a969ad672c8809e5
 vendor/lib64/libvendorconn.so|45cb840b3d34efd89525aca39af550ea55339138
 vendor/lib64/libwqe.so|b1b4cbab2b0889ca83a0632c1d87eb4ac0714596
@@ -1452,12 +1452,14 @@ vendor/lib64/libdatactrl.so|0b803a222b636aa617836cfbd6d84dba89c4f1fe
 vendor/lib64/liblqe.so|77f4511a9bfd78b882a2ad6eaef7e63c76271872
 vendor/lib64/libmdmdetect.so|42bc292909e3034060fb55bb390d339ea5191432
 vendor/lib64/libnetmgr.so|5ff2677a09bd1191c6ac00bc9f6ccdc3e098b5ae
+vendor/lib64/libprotobuf-cpp-biss.so|d0b821e84fb5080c8c7916d505cbd46bf2aae96c
+vendor/lib64/libprotobuf-cpp-shit.so|140e067001e6d2812cf937699cd11f815e9f6c86
 vendor/lib64/libril-qc-ltedirectdisc.so|538c986b3a07b8bf33af67b5e61516661151da66
 vendor/lib64/libril-qc-qmi-1.so|2fd69f001e9b816cedad40b118cdb2151377d521
 vendor/lib64/libril-qc-radioconfig.so|58839529a0835742cada6db38b49bbf1e3e47aaf
 vendor/lib64/libril-qcril-hook-oem.so|e7121973a761e6cbba6010b729c0a530b28c2428
 vendor/lib64/librilqmiservices.so|def64a0cff29c6bf97778641c19e4fbcfc333eae
-vendor/lib64/libsettings.so|8dec160d84469494863d7f1f3cb1e9fa8b5ac1f4
+vendor/lib64/libsettings.so|dd679d1b28ef16549b0041e909ecc2729d1bf60a
 vendor/lib64/libsystem_health_mon.so|aadbb62919cd8a1b1bf9044a338754cd1ed1713a
 vendor/lib/libmdmdetect.so|08bbd8ed6e233a94ac8159ad04c940dd37d1c9d1
 vendor/qcril.db|7519ccf9924a5e054d7ad18a9747f6a31e797ff8
