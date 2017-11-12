@@ -106,13 +106,13 @@ etc/acdbdata/QRD/QRD_Hdmi_cal.acdb
 etc/acdbdata/QRD/QRD_Headset_cal.acdb
 etc/acdbdata/QRD/QRD_Speaker_cal.acdb
 
-# Bluetooth
-bin/btnvtool
+# Bluetooth - from garlic (Yu Yureka Black) & mido
+bin/btnvtool|409151f71ff956d8f1a42894c6ecc2e1cff96a70
 bin/hci_qcomm_init|3f4b99cb6ee44e688916eee413d3c15f78d03a87
 bin/wcnss_filter|dc151b5fbf9bca3d807ec4ba0e256b0e5140fe39
-vendor/lib/libbtnv.so
-vendor/lib64/libbtnv.so
-vendor/lib64/libbt-vendor.so
+vendor/lib/libbtnv.so|ca1232760185091236866a5eabc068fb196cdf40
+vendor/lib64/libbtnv.so|0580c0b93561d6f2df78c2990b88a4c1fdbac4eb
+vendor/lib64/libbt-vendor.so|315b768951a37499f9b4e9d09ec2696064d407ae
 
 # CNE - from garlic (Yu Yureka Black)
 -framework/cneapiclient.jar|3cb56a579341acfb16d2be2e41bac2c7b6ac34b4
