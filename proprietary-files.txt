@@ -1371,7 +1371,7 @@ vendor/lib/libperipheral_client.so|7e54351ec6cae4a302330671e247a2487e36ff15
 vendor/lib64/libperipheral_client.so|1a8db83ca35bb8f9e973cd6d988456d5e6696888
 
 # Postprocessing - from unknown
-etc/permissions/com.qti.snapdragon.sdk.display.xml|da39a3ee5e6b4b0d3255bfef95601890afd80709
+etc/permissions/com.qti.snapdragon.sdk.display.xml
 framework/com.qti.snapdragon.sdk.display.jar
 -vendor/app/colorservice/colorservice.apk
 etc/permissions/com.qti.snapdragon.sdk.display.xml
